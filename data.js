@@ -23,5 +23,17 @@ var data = [
     country : "Norway",
     city : "Oslo",
     comment: ""
+    },
+    {
+    time : 1678916771,
+    lat : 53.301289,
+    long : 4.620260,
+    score : 3,
+    speed : 2,
+    smoothness : 2,
+    type : "escalator",
+    country : "United Kingdom ",
+    city : "Holyhead ",
+    comment : "It's not a great escalator "
     }
     ];
