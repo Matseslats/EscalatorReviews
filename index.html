@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PPY45XRCVE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PPY45XRCVE');
+  </script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NBWPXMG');</script>
+    <!-- End Google Tag Manager -->
+
+  <link rel="stylesheet" href="style.css">
+  <title>Escalator Reviews</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="How smooth are your local escalators? Look it up or add it to the website">
+  <meta name="keywords" content="Escalator,Auto-Walk,Reviews,Map,Home">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="shortcut icon" href="images/escalatorBlack.png">
+  <!--Load map-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- NAVIGATION SCRIPT -->
+  <script src="navBar.js"></script> <!--JSON script-->
+</head>
+
+<body style="overflow-y: hidden;">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBWPXMG"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  <!-- NAVIGATION BAR -->
+  <div id="banner"><h1><img src="images/escalator.png" alt="icon" style="width:100px;height:100px;"></h1></div> <!--Logo on top of the screen-->
+  <div class="topnav" id="myTopnav"><!--Menu-->
+     <a href="index.html" class="active">Home</a>
+     <a href="about.html">About</a>
+     <a href="submit.html">Submit</a>
+     <a href="search.html" class="right">Search</a>
+     <a href="javascript:void(0);" class="icon" onclick="loadMenu()">
+       <i class="fa fa-bars"></i>
+     </a>
+  </div>
+
+
+  <div id="mapid" onload="setHeightOfMap()"></div>  <!--Style of the map-->
+  <script src="data.js"></script> <!--JSON script-->
+  <script src="map.js"></script> <!--Map script-->
+  <!-- Footer with logo on mobile -->
+  <div id="wrap">
+    <!-- <h3>Test</h3> -->
+    <div id="blackLogo" style="opacity: 0;"><img src="images/escalatorBlack.png" id="blackLogoImage"/></div>
+  </div>
+  <script>
+    <!-- //
+    // function setHeightOfMap(){
+      let navHeight = document.getElementById("myTopnav").clientHeight;
+      let mapElement = document.getElementById("mapid");
+      let screenHeight = getHeight();
+      let wrapElement = document.getElementById("wrap");
+      let bannerHeight = document.getElementById("banner").clientHeight;
+
+      mapElement.style.height = (screenHeight-(navHeight+bannerHeight)) + "px";
+      if (screen.width <= 600){ // On mobile, set height of map to full screen
+        // let gapVertical = (navHeight*0.2);
+        // let mapHeight = screenHeight-(navHeight+gapVertical*3);
+        // mapElement.style.margin = gapVertical + "px auto auto auto";
+        // mapElement.style.maxHeight = mapHeight+"px";
+        // mapElement.style.height = mapHeight+"px";
+
+        // mapElement.style.margin = "0px 0px";
+        // mapElement.style.maxHeight = "100%";
+        // mapElement.style.maxWidth = "100%";
+        // mapElement.style.height = screenHeight-navHeight;
+        // mapElement.style.width = "100%";
+        // mapElement.style.border = "none";
+
+        
+        let logoElement = document.getElementById("blackLogo");
+        logoElement.style.opacity = "1";
+        
+        let imgHeight = (navHeight*1);
+        wrapElement.style.margin = "-"+imgHeight*1+ "px auto 0";
+
+        let logoImg = document.getElementById('blackLogoImage');
+        if(logoImg && logoImg.style) {
+          logoImg.style.height = imgHeight + "px";
+          logoImg.style.width = imgHeight + "px";
+        }
+      } else {
+        // Avaid extra space by deleting image on laptop
+        wrapElement.remove();
+      }
+
+      function getHeight() { // From: https://stackoverflow.com/questions/3333329/javascript-get-browser-height
+        let myWidth = 0, myHeight = 0;
+        if( typeof( window.innerWidth ) == 'number' ) {
+          //Non-IE
+          myWidth = window.innerWidth;
+          myHeight = window.innerHeight;
+        } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+          //IE 6+ in 'standards compliant mode'
+          myWidth = document.documentElement.clientWidth;
+          myHeight = document.documentElement.clientHeight;
+        } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+          //IE 4 compatible
+          myWidth = document.body.clientWidth;
+          myHeight = document.body.clientHeight;
+        }
+        return myHeight;
+      }
+    // }
+    // -->
+
+  </script>
+  </body>
+
+</html>

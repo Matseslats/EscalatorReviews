@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PPY45XRCVE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PPY45XRCVE');
+  </script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NBWPXMG');</script>
+    <!-- End Google Tag Manager -->
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Submit | Escalator Reviews</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="How smooth are your local escalators? Look it up or add it to the website">
+  <meta name="keywords" content="Escalator,Auto-Walk,Reviews,Submit">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/escalatorBlack.png">
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!-- NAVIGATION SCRIPT -->
+ <script src="navBar.js"></script>
+ <script src="coordinates.js"></script>
+ <script src="submit.js"></script>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBWPXMG"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  <h1><img src="images/escalator.png" alt="icon" style="width:100px;height:100px;"></h1> <!--Logo on top of the screen-->
+  <div class="topnav" id="myTopnav"><!--Menu-->
+     <a href="index.html">Home</a>
+     <a href="about.html">About</a>
+     <a href="submit.html" class="active">Submit</a>
+     <a href="search.html" class="right">Search</a>
+     <a href="javascript:void(0);" class="icon" onclick="loadMenu()">
+       <i class="fa fa-bars"></i>
+     </a>
+  </div>
+  <!-- <div class="res" id="results"></div> -->
+  <!-- <h2>Coming soon</h2> -->
+  <div class="submit">
+    <div class="ninetywidth">
+      <h2>How to submit</h2>
+      <p><h3>To submit an escalator you have to fill in the form on the left/bottom. You only have to fill out all the 
+        fields before you can submit. Every single submission is grately apreciated.
+      </h3></p>
+      <button onclick="getLocation()" style="width:90%;">What are my coordinates?</button>
+      <p id="position"></p>
+    </div>
+  </div>
+  <div class="form">
+    <div class="ninetywidth">
+    
+    <h2>Submit an escalator</h2>
+
+
+      <form id="submissionform">
+        <fieldset>
+          <!-- <label for="email">E-mail</label><br>
+          <input type="email" name="email" required><br> -->
+
+          <label for="country">Country</label><br>
+          <input type="text" name="country" required><br>
+          <label for="city">City</label><br>
+          <input type="text" name="city" required><br>
+
+        <label for="coordinates">Coordinates</label><br>
+        <input type="text" placeholder="Latitude" name="latitude" id="lat" style="width:49%;" required/>
+        <input type="text" placeholder="Longitude" name="longitude" id="long" style="width:49%;float:right;" required/><br>
+        <input type="button" onclick="setLocation()" value="Use my coordinates" /><br>
+
+        <label for="type">Type</label>
+        <select name="type">
+          <option value="escalator">Escalator</option>
+          <option value="autowalk">Autowalk</option>
+        </select><br>
+
+        <label for="score">Overall score</label>
+        <input type="number" name="score" min="1" max="10" placeholder="1 to 10" required/><br/>
+
+        <label for="smoothness">Smoothness</label>
+        <input type="number" name="smoothness" min="1" max="10" placeholder="1 to 10" required/><br/>
+
+        <label for="speed">Speed</label>
+        <input type="number" name="speed" min="-5" max="5" placeholder="-5 to 5" required/><br/>
+
+        <label for="comment">Comment (Optional)</label><br>
+        <input type="text" name="comment"><br>
+
+        <input type="submit" name="submit" value="Submit"/>
+
+
+        </fieldset>
+
+      </form>
+
+      <output id="output"></output>
+      </div>
+  </div>
+
+</body>
+</html>
