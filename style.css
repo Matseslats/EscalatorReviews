@@ -22,13 +22,17 @@ h3 {
   margin: 0;
   padding: 0;
 }
+.search-margins {
+  text-align: center;
+  margin: 1em;
+}
 @media screen and (max-width: 1070px) {
   h2 {
-    margin: 40px;
+    /* margin: 40px; */
   }
   h3{
     font-size: 20px;
-    margin: 40px;
+    /* margin: 40px; */
   }
 }
 h4 {
