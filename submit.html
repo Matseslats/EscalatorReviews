@@ -54,10 +54,9 @@
   <!-- <h2>Coming soon</h2> -->
   <div class="submit">
     <div class="ninetywidth">
-      <h2>How to submit</h2>
-      <p><h3>To submit an escalator you have to fill in the form on the left/bottom. You only have to fill out all the 
-        fields before you can submit. Every single submission is grately apreciated.
-      </h3></p>
+      <h2>How to review</h2>
+      <h3>Smoothness:</h3> <p>Does the standing area move smoothly? 1: very stuttery. 5: Average smoothness. 10: very smooth</p>
+      <h3>Handrail Speed:</h3> <p>-5: handrail moves slower than standing area. 0: Speeds match. 5: Handrail moves faster than standing area</p>
       <button onclick="getLocation()" style="width:90%;">What are my coordinates?</button>
       <p id="position"></p>
     </div>
@@ -65,7 +64,7 @@
   <div class="form">
     <div class="ninetywidth">
     
-    <h2>Submit an escalator</h2>
+    <!-- <h2>Submit an escalator</h2> -->
 
 
       <form id="submissionform">
@@ -89,14 +88,14 @@
           <option value="autowalk">Autowalk</option>
         </select><br>
 
-        <label for="score">Overall score</label>
-        <input type="number" name="score" min="1" max="10" placeholder="1 to 10" required/><br/>
-
         <label for="smoothness">Smoothness</label>
         <input type="number" name="smoothness" min="1" max="10" placeholder="1 to 10" required/><br/>
 
-        <label for="speed">Speed</label>
+        <label for="speed">Handrail Speed</label>
         <input type="number" name="speed" min="-5" max="5" placeholder="-5 to 5" required/><br/>
+
+        <label for="score">Overall score</label>
+        <input type="number" name="score" min="1" max="10" placeholder="1 to 10" required/><br/>
 
         <label for="comment">Comment (Optional)</label><br>
         <input type="text" name="comment"><br>
