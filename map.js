@@ -51,3 +51,14 @@ function onClick(e) {
     );
   }
 }
+
+const popup = L.popup();
+
+function onMapClick(e) {
+  popup
+    .setLatLng(e.latlng)
+    .setContent(`<a href="submit.html?lat=${e.latlng.lat}&long=${e.latlng.lng}">Submit an escalator here</a>`)
+    .openOn(map);
+}
+
+map.on('click', onMapClick);

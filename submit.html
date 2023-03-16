@@ -34,7 +34,7 @@
  <script src="submit.js"></script>
 </head>
 
-<body>
+<body  onload="getLatLong();">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBWPXMG"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -79,8 +79,8 @@
           <input type="text" name="city" required><br>
 
         <label for="coordinates">Coordinates</label><br>
-        <input type="text" placeholder="Latitude" name="latitude" id="lat" style="width:49%;" required/>
-        <input type="text" placeholder="Longitude" name="longitude" id="long" style="width:49%;float:right;" required/><br>
+        <input type="text" placeholder="Latitude" name="latitude" id="form_lat" style="width:49%;" required/>
+        <input type="text" placeholder="Longitude" name="longitude" id="form_long" style="width:49%;float:right;" required/><br>
         <input type="button" onclick="setLocation()" value="Use my coordinates" /><br>
 
         <label for="type">Type</label>

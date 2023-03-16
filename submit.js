@@ -3,6 +3,7 @@
     // code that should be taken care of right away
     
     window.onload = init;
+
     
       function init(){
         // the code to be called when the dom has loaded
@@ -64,4 +65,16 @@ String.prototype.hashCode = function() {
     }
     return hash;
 }
-  
+
+function getLatLong(){
+  // Get url params if there are any
+  let params = new URLSearchParams(location.search);
+  let lat = params.get('lat');
+  if (lat != undefined){
+    document.getElementById("form_lat").value = lat;
+  }
+  let long = params.get('long');
+  if (lat != undefined){
+    document.getElementById("form_long").value = long;
+  }
+};
