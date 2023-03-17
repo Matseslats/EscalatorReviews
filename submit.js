@@ -41,6 +41,18 @@
     
     
 function submitForm(info, lat, long, city, country){
+  try {
+    // console.log("Sending icon click to GA4.");
+    gtag("event", "submission", {
+      latitude: lat,
+      longitude: long,
+      email: info
+    });
+  } catch (e) {
+    console.log(
+      "Something wrong happened when setting up event handling for the icon click."
+    );
+  }
     sendMail(info, lat, long, city, country);
 }
 
