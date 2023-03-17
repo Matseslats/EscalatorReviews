@@ -35,5 +35,17 @@ var data = [
     country : "United Kingdom ",
     city : "Holyhead ",
     comment : "It's not a great escalator "
-    }
+    },
+    {
+        time : 1679063318,
+        lat : 53.36571592892292,
+        long : -2.7265944454325113,
+        score : 6,
+        speed : 3,
+        smoothness : 6,
+        type : "escalator",
+        country : "United Kingdom ",
+        city : "Widnes",
+        comment : "Too steep 😌"
+      }
     ];
