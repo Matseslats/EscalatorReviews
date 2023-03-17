@@ -1,45 +1,34 @@
-(function(window, document, undefined){
+function processForm(){
+  console.log("A");
+  const form = document.getElementById('submissionform');
 
-    // code that should be taken care of right away
-    
-    window.onload = init;
-
-    
-      function init(){
-        // the code to be called when the dom has loaded
-        const form = document.getElementById('submissionform');
-
-        form.addEventListener("submit", e => {
-            e.preventDefault();
-            let reqBody = {};
-            Object.keys(form.elements).forEach(key => {
-                let element = form.elements[key];
-                if (element.type !== "submit") {
-                    reqBody[element.name] = element.value;
-                }
-            });
-            let email =
-            "DO NOT CHANGE ANYTHING IN THIS EMAIL\n==========\n\n" +
-            "{\n  time : " + (Math.floor(Date.now() / 1000)).toString() +
-            ",\n  lat : " + reqBody["latitude"] +
-            ",\n  long : " + reqBody["longitude"] +
-            ",\n  score : " + reqBody["score"] +
-            ",\n  speed : " + reqBody["speed"] +
-            ",\n  smoothness : " + reqBody["smoothness"] +
-            ",\n  type : \"" + reqBody["type"] + "\"" +
-            ",\n  country : \"" + reqBody["country"] + "\"" +
-            ",\n  city : \"" + reqBody["city"] + "\"" +
-            ",\n  comment : \"" + reqBody["comment"] + "\"" +
-            "\n}\n\n==========\nEND OF EMAIL\n";
-            let hashGenerated = email.hashCode();
-            email += hashGenerated;
-            submitForm(email, reqBody["latitude"], reqBody["longitude"], reqBody["city"], reqBody["country"]); // Call to function for form submission
-        });
-      }
-    
-    })(window, document, undefined);
-    
-    
+  // form.addEventListener("submit", e => {
+      // e.preventDefault();
+      let reqBody = {};
+      Object.keys(form.elements).forEach(key => {
+          let element = form.elements[key];
+          if (element.type !== "submit") {
+              reqBody[element.name] = element.value;
+          }
+      });
+      let email =
+      "DO NOT CHANGE ANYTHING IN THIS EMAIL\n==========\n\n" +
+      "{\n  time : " + (Math.floor(Date.now() / 1000)).toString() +
+      ",\n  lat : " + reqBody["latitude"] +
+      ",\n  long : " + reqBody["longitude"] +
+      ",\n  score : " + reqBody["score"] +
+      ",\n  speed : " + reqBody["speed"] +
+      ",\n  smoothness : " + reqBody["smoothness"] +
+      ",\n  type : \"" + reqBody["type"] + "\"" +
+      ",\n  country : \"" + reqBody["country"] + "\"" +
+      ",\n  city : \"" + reqBody["city"] + "\"" +
+      ",\n  comment : \"" + reqBody["comment"] + "\"" +
+      "\n}\n\n==========\nEND OF EMAIL\n";
+      let hashGenerated = email.hashCode();
+      email += hashGenerated;
+      submitForm(email, reqBody["latitude"], reqBody["longitude"], reqBody["city"], reqBody["country"]); // Call to function for form submission
+  
+}
 function submitForm(info, lat, long, city, country){
   try {
     // console.log("Sending icon click to GA4.");
