@@ -12,7 +12,7 @@ function processForm(){
           }
       });
       let email =
-      "DO NOT CHANGE ANYTHING IN THIS EMAIL\n==========\n\n" +
+      "This email is auto generated. Please do not change or add anything to it.\n==========\n\n" +
       "{\n  time : " + (Math.floor(Date.now() / 1000)).toString() +
       ",\n  lat : " + reqBody["latitude"] +
       ",\n  long : " + reqBody["longitude"] +
@@ -23,7 +23,7 @@ function processForm(){
       ",\n  country : \"" + reqBody["country"] + "\"" +
       ",\n  city : \"" + reqBody["city"] + "\"" +
       ",\n  comment : \"" + reqBody["comment"] + "\"" +
-      "\n}\n\n==========\nEND OF EMAIL\n";
+      "\n}\n\n==========\n";
       let hashGenerated = email.hashCode();
       email += hashGenerated;
       submitForm(email, reqBody["latitude"], reqBody["longitude"], reqBody["city"], reqBody["country"]); // Call to function for form submission
