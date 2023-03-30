@@ -48,30 +48,30 @@ var data = [
       city : "Widnes",
       comment : "Too steep 😌"
     },
-    // { // Error: Coords are in Widnes
-    //   time : 1680117435,
-    //   lat : 52.4781810431941,
-    //   long : -1.8985817417774347,
-    //   score : 3,
-    //   speed : 3,
-    //   smoothness : 5,
-    //   type : "escalator",
-    //   country : "United Kingdom",
-    //   city : "Birmingham",
-    //   comment : "It was way to full 😭"
-    // },
-    {
-      time : 1680172195,
-      lat : 53.365780275981734,
-      long : -2.7267487208473544,
-      score : 5,
+    { 
+      time : 1680117435,
+      lat : 52.4781810431941,
+      long : -1.8985817417774347,
+      score : 3,
       speed : 3,
-      smoothness : 6,
+      smoothness : 5,
       type : "escalator",
       country : "United Kingdom",
-      city : "Plymouth",
-      comment : "Okay but not amazing "
+      city : "Birmingham",
+      comment : "It was way to full 😭"
     },
+    // { // Error: Coords are in Widnes
+    //   time : 1680172195,
+    //   lat : 53.365780275981734,
+    //   long : -2.7267487208473544,
+    //   score : 5,
+    //   speed : 3,
+    //   smoothness : 6,
+    //   type : "escalator",
+    //   country : "United Kingdom",
+    //   city : "Plymouth",
+    //   comment : "Okay but not amazing "
+    // },
     {
       time : 1680174735,
       lat : 50.37111826705073,
