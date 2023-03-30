@@ -83,5 +83,17 @@ var data = [
       country : "United Kingdom",
       city : "Plymouth",
       comment : ""
+      },
+      {
+        time : 1680189134,
+        lat :  53.481192,
+        long :  -2.239094,
+        score : 8,
+        speed : 0,
+        smoothness : 8,
+        type : "escalator",
+        country : "United Kingdom",
+        city : "Manchester",
+        comment : "A bit choppy"
       }
     ];
