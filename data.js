@@ -48,18 +48,18 @@ var data = [
       city : "Widnes",
       comment : "Too steep 😌"
     },
-    {
-      time : 1680117435,
-      lat : 52.4781810431941,
-      long : -1.8985817417774347,
-      score : 3,
-      speed : 3,
-      smoothness : 5,
-      type : "escalator",
-      country : "United Kingdom",
-      city : "Birmingham",
-      comment : "It was way to full 😭"
-    },
+    // { // Error: Coords are in Widnes
+    //   time : 1680117435,
+    //   lat : 52.4781810431941,
+    //   long : -1.8985817417774347,
+    //   score : 3,
+    //   speed : 3,
+    //   smoothness : 5,
+    //   type : "escalator",
+    //   country : "United Kingdom",
+    //   city : "Birmingham",
+    //   comment : "It was way to full 😭"
+    // },
     {
       time : 1680172195,
       lat : 53.365780275981734,
