@@ -59,5 +59,17 @@ var data = [
       country : "United Kingdom",
       city : "Birmingham ",
       comment : "It was way to full 😭"
+    },
+    {
+      time : 1680172195,
+      lat : 53.365780275981734,
+      long : -2.7267487208473544,
+      score : 5,
+      speed : 3,
+      smoothness : 6,
+      type : "escalator",
+      country : "United Kingdom",
+      city : "Plymouth ",
+      comment : "Okay but not amazing "
     }
     ];
