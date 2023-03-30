@@ -32,8 +32,8 @@ var data = [
       speed : 2,
       smoothness : 2,
       type : "escalator",
-      country : "United Kingdom ",
-      city : "Holyhead ",
+      country : "United Kingdom",
+      city : "Holyhead",
       comment : "It's not a great escalator "
     },
     {
@@ -44,7 +44,7 @@ var data = [
       speed : 3,
       smoothness : 6,
       type : "escalator",
-      country : "United Kingdom ",
+      country : "United Kingdom",
       city : "Widnes",
       comment : "Too steep 😌"
     },
@@ -57,7 +57,7 @@ var data = [
       smoothness : 5,
       type : "escalator",
       country : "United Kingdom",
-      city : "Birmingham ",
+      city : "Birmingham",
       comment : "It was way to full 😭"
     },
     {
@@ -69,7 +69,19 @@ var data = [
       smoothness : 6,
       type : "escalator",
       country : "United Kingdom",
-      city : "Plymouth ",
+      city : "Plymouth",
       comment : "Okay but not amazing "
-    }
+    },
+    {
+      time : 1680174735,
+      lat : 50.37111826705073,
+      long : -4.141636490821839,
+      score : 7,
+      speed : 7,
+      smoothness : 7,
+      type : "escalator",
+      country : "United Kingdom",
+      city : "Plymouth",
+      comment : ""
+      }
     ];
