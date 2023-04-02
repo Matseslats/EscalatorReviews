@@ -1,4 +1,3 @@
-//Create markers from data
 var data = [
     {
       time : 1677672000,
@@ -60,18 +59,6 @@ var data = [
       city : "Birmingham",
       comment : "It was way to full 😭"
     },
-    // { // Error: Coords are in Widnes
-    //   time : 1680172195,
-    //   lat : 53.365780275981734,
-    //   long : -2.7267487208473544,
-    //   score : 5,
-    //   speed : 3,
-    //   smoothness : 6,
-    //   type : "escalator",
-    //   country : "United Kingdom",
-    //   city : "Plymouth",
-    //   comment : "Okay but not amazing "
-    // },
     {
       time : 1680174735,
       lat : 50.37111826705073,
@@ -95,5 +82,17 @@ var data = [
         country : "United Kingdom",
         city : "Manchester",
         comment : "A bit choppy"
+      },
+      {
+        time : 1680237710,
+        lat :  53.476588,
+        long :  -2.229849,
+        score : 5,
+        speed : 0,
+        smoothness : 5,
+        type : "escalator",
+        country : "United Kingdom",
+        city : "Manchester",
+        comment : "Very choppy"
       }
     ];
