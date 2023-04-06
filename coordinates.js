@@ -20,7 +20,7 @@ function setLocation() {
 }
 
 function setPosition(position) {
-  document.getElementById("lat").value = Number((position.coords.latitude).toFixed(6));
-  document.getElementById("long").value = Number((position.coords.longitude).toFixed(6));
+  document.getElementById("form_lat").value = Number((position.coords.latitude).toFixed(6));
+  document.getElementById("form_long").value = Number((position.coords.longitude).toFixed(6));
 
 }
