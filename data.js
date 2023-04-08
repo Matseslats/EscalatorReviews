@@ -130,5 +130,17 @@ var data = [
     country : "Sweden",
     city : "Nordby",
     comment : "Very unstable on entry"
-  }
+  },
+  {
+    time : 1680975014,
+    lat : 50.372131369652536,
+    long : -4.139796254411864,
+    score : 6,
+    speed : 5,
+    smoothness : 7,
+    type : "escalator",
+    country : "United Kingdom",
+    city : "Plymouth ",
+    comment : "It was your average escalator but slightly scarier "
+  }  
 ];
