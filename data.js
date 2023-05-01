@@ -142,5 +142,17 @@ var data = [
     country : "United Kingdom",
     city : "Plymouth ",
     comment : "It was your average escalator but slightly scarier "
+  },
+  {
+    time : 1682948369,
+    lat : 52.413053,
+    long : -4.082739,
+    score : 8,
+    speed : 1,
+    smoothness : 9,
+    type : "escalator",
+    country : "United Kingdom",
+    city : "Aberystwyth",
+    comment : "Shakes a bit"
   }  
 ];
