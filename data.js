@@ -154,5 +154,17 @@ var data = [
     country : "United Kingdom",
     city : "Aberystwyth",
     comment : "Shakes a bit"
-  }  
+  },
+  {
+    time : 1689076749,
+    lat : 48.35964,
+    long : 11.799032,
+    score : 9,
+    speed : 0,
+    smoothness : 9,
+    type : "autowalk",
+    country : "Germany",
+    city : "Munich",
+    comment : "Cool LEDs"
+  }
 ];
