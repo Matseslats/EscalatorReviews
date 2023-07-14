@@ -166,5 +166,29 @@ var data = [
     country : "Germany",
     city : "Munich",
     comment : "Cool LEDs"
+  },
+  {
+    time : 1689343130,
+    lat : 48.353971,
+    long : 11.788036,
+    score : 8,
+    speed : 0,
+    smoothness : 8,
+    type : "escalator",
+    country : "Germany",
+    city : "Munich",
+    comment : "Can take luggage. Very cool"
+  },
+  {
+    time : 1689344146,
+    lat : 48.355969,
+    long : 11.791833,
+    score : 9,
+    speed : 0,
+    smoothness : 9,
+    type : "autowalk",
+    country : "Germany",
+    city : "Munich",
+    comment : "Very wide, very smooth"
   }
 ];
