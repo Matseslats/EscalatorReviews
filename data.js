@@ -190,5 +190,29 @@ var data = [
     country : "Germany",
     city : "Munich",
     comment : "Very wide, very smooth"
+  },
+  {
+    time : 1689360508,
+    lat : 55.627974,
+    long : 12.651663,
+    score : 8,
+    speed : 0,
+    smoothness : 9,
+    type : "autowalk",
+    country : "Denmark",
+    city : "Copenhagen",
+    comment : "Shaky handrail"
+  },
+  {
+    time : 1689360711,
+    lat : 55.62721,
+    long : 12.655062,
+    score : 8,
+    speed : 1,
+    smoothness : 9,
+    type : "autowalk",
+    country : "Denmark",
+    city : "Copenhagen",
+    comment : "Turns off when no one uses it. Eco friendly"
   }
 ];
