@@ -17,8 +17,8 @@ var LeafIcon = L.Icon.extend({
   }
 });
 
-var escalatorIcon = new LeafIcon({iconUrl: 'images/escalatorPin.png'}),
-	autowalkIcon = new LeafIcon({iconUrl: 'images/autowalkPin.png'});
+var escalatorIcon = new LeafIcon({iconUrl: 'images/escalatorPin.svg'}),
+	autowalkIcon = new LeafIcon({iconUrl: 'images/autowalkPin.svg'});
 
 for (var i in data) {
   var type = data[i].type;

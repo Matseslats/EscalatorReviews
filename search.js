@@ -13,9 +13,9 @@ function myFunction() {
         var speed = data[i].speed;
         var smooth = data[i].smoothness;
         if (type=="autowalk"){
-          var icon = "images/autowalk.png";
+          var icon = "images/autowalk.svg";
         } else {
-          var icon = "images/escalator.png";
+          var icon = "images/escalator.svg";
         }
         type = (type.charAt(0).toUpperCase() + type.slice(1));
         // var comment = data[i].comment;
