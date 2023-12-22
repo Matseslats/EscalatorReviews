@@ -253,14 +253,14 @@ var data = [
       },
       {
         time : 1702938016,
-        lat : 60.107575,
-        long : 9.700226,
+        lat : 60.19524921546794,
+        long : 11.093637943267824,
         score : 10,
         speed : 0,
         smoothness : 10,
         type : "escalator",
         country : "Norway",
-        city : "Jessheim ",
+        city : "Jessheim",
         comment : "Simply lovely"
       }
 ];
