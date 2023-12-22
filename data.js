@@ -214,5 +214,53 @@ var data = [
     country : "Denmark",
     city : "Copenhagen",
     comment : "Turns off when no one uses it. Eco friendly"
-  }
+  },
+  {
+    time : 1701293767,
+    lat : 59.283542350873745,
+    long : 11.108829975128176,
+    score : 7,
+    speed : 5,
+    smoothness : 10,
+    type : "autowalk",
+    country : "Norway",
+    city : "Sarpsborg",
+    comment : "Stuttery handrail moves faster than the standing area. Standing area are very smooth. (Storbyen Shopping Center)."
+    },
+    {
+      time : 1701325671,
+      lat : 59.28368209519971,
+      long : 11.107821464538576,
+      score : 8,
+      speed : 0,
+      smoothness : 10,
+      type : "escalator",
+      country : "Norway",
+      city : "Sarpsborg",
+      comment : "Very smooth ride. Escalator is a bit narrow. Ride in line, one person at the time. (Storbyen Shopping Center)."
+      },
+      {
+        time : 1702923637,
+        lat : 53.361592,
+        long : -2.275418,
+        score : 6,
+        speed : 2,
+        smoothness : 4,
+        type : "escalator",
+        country : "United Kingdom",
+        city : "Manchester",
+        comment : "Bit shaky"
+      },
+      {
+        time : 1702938016,
+        lat : 60.107575,
+        long : 9.700226,
+        score : 10,
+        speed : 0,
+        smoothness : 10,
+        type : "escalator",
+        country : "Norway",
+        city : "Jessheim ",
+        comment : "Simply lovely"
+      }
 ];
