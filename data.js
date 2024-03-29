@@ -262,5 +262,17 @@ var data = [
         country : "Norway",
         city : "Jessheim",
         comment : "Simply lovely"
+      },
+      {
+        time : 1711710231,
+        lat : 45.29742610480595,
+        long : 6.58259153366089,
+        score : 8,
+        speed : 0,
+        smoothness : 8,
+        type : "autowalk",
+        country : "France",
+        city : "Val thoren",
+        comment : "Harsh start after someone falls over"
       }
 ];
