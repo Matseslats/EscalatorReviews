@@ -274,5 +274,53 @@ var data = [
         country : "France",
         city : "Val thoren",
         comment : "Harsh start after someone falls over"
+      },
+      {
+        time : 1711742514,
+        lat : 49.005701,
+        long : 2.57757,
+        score : 8,
+        speed : 0,
+        smoothness : 8,
+        type : "escalator",
+        country : "France",
+        city : "Paris",
+        comment : ""
+      },
+      {
+        time : 1711879285,
+        lat : 48.868993,
+        long : 2.32777,
+        score : 7,
+        speed : 1,
+        smoothness : 8,
+        type : "escalator",
+        country : "France",
+        city : "Paris",
+        comment : "Bit shaky"
+      },
+      {
+        time : 1711964398,
+        lat : 48.727214,
+        long : 2.361236,
+        score : 7,
+        speed : 2,
+        smoothness : 8,
+        type : "escalator",
+        country : "France",
+        city : "Paris",
+        comment : ""
+      },
+      {
+        time : 1711964376,
+        lat : 48.8441006,
+        long : 2.3704174,
+        score : 9,
+        speed : 8,
+        smoothness : 10,
+        type : "escalator",
+        country : "France",
+        city : "Paris",
+        comment : ""
       }
 ];
