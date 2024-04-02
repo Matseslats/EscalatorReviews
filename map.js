@@ -1,4 +1,4 @@
-var map = L.map('mapid').setView([53.0, 0], 5); //Set view position of the map
+var map = L.map('mapid').setView([49.2, 4], 5); //Set view position of the map
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
