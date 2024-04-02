@@ -322,5 +322,17 @@ var data = [
         country : "France",
         city : "Paris",
         comment : ""
+      },
+      {
+        time : 1712095882,
+        lat : 41.390721,
+        long : 2.170868,
+        score : 5,
+        speed : 2,
+        smoothness : 6,
+        type : "escalator",
+        country : "Spain",
+        city : "Barcelona",
+        comment : "Unstable"
       }
 ];
