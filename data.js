@@ -334,5 +334,17 @@ var data = [
         country : "Spain",
         city : "Barcelona",
         comment : "Unstable"
+      },
+      {
+        time : 1712753105,
+        lat : 40.424337,
+        long : -3.711384,
+        score : 9,
+        speed : 10,
+        smoothness : 9,
+        type : "escalator",
+        country : "Spain",
+        city : "Madrid",
+        comment : "Wonderfully smooth, but very narrow"
       }
 ];
