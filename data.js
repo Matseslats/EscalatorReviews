@@ -346,5 +346,17 @@ var data = [
         country : "Spain",
         city : "Madrid",
         comment : "Wonderfully smooth, but very narrow"
-      }
+      },
+{
+  time : 1713350957,
+  lat : 52.450565,
+  long : -1.725446,
+  score : 7,
+  speed : 1,
+  smoothness : 8,
+  type : "escalator",
+  country : "United Kingdom",
+  city : "Birmingham ",
+  comment : ""
+}
 ];
