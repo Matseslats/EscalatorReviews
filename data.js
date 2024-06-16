@@ -356,7 +356,7 @@ var data = [
     smoothness: 8,
     type: "escalator",
     country: "United Kingdom",
-    city: "Birmingham ",
+    city: "Birmingham",
     comment: ""
   },
   {
