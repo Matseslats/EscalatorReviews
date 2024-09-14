@@ -370,5 +370,17 @@ var data = [
     country: "UK",
     city: "London",
     comment: "dirty"
-  }
+  },
+{
+  time : 1726331211,
+  lat : 51.51476,
+  long : -0.154108,
+  score : 9,
+  speed : 0,
+  smoothness : 9,
+  type : "escalator",
+  country : "United Kingdom",
+  city : "London",
+  comment : ""
+}
 ];
