@@ -382,5 +382,29 @@ var data = [
   country : "United Kingdom",
   city : "London",
   comment : ""
+},
+{
+  time : 1734608118,
+  lat : 41.389007,
+  long : 2.167789,
+  score : 9,
+  speed : 1,
+  smoothness : 10,
+  type : "escalator",
+  country : "Spain",
+  city : "Barcelona",
+  comment : "Very good!"
+},
+{
+  time : 1734873761,
+  lat : 59.905748,
+  long : 10.755281,
+  score : 10,
+  speed : 0,
+  smoothness : 1,
+  type : "escalator",
+  country : "Norway",
+  city : "Oslo",
+  comment : ""
 }
 ];
