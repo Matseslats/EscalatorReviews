@@ -406,5 +406,17 @@ var data = [
   country : "Norway",
   city : "Oslo",
   comment : ""
+},
+{
+  time : 1746717119,
+  lat : 52.406106,
+  long : -4.066128,
+  score : 9,
+  speed : 0,
+  smoothness : 9,
+  type : "escalator",
+  country : "United Kingdom",
+  city : "Aberystwyth",
+  comment : "Solid"
 }
 ];
