@@ -406,5 +406,17 @@ var data = [
   country : "Norway",
   city : "Oslo",
   comment : ""
+},
+{
+  time : 1754256806,
+  lat : 52.377908,
+  long : 4.899341,
+  score : 9,
+  speed : -1,
+  smoothness : 9,
+  type : "escalator",
+  country : "The Netherlands",
+  city : "Amsterdam",
+  comment : ""
 }
 ];
