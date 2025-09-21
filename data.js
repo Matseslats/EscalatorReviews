@@ -418,5 +418,17 @@ var data = [
   country : "The Netherlands",
   city : "Amsterdam",
   comment : ""
+},
+{
+  time : 1758273469,
+  lat : 39.943348,
+  long : 116.503515,
+  score : 7,
+  speed : 0,
+  smoothness : 7,
+  type : "escalator",
+  country : "China",
+  city : "Beijing",
+  comment : "Super crowded"
 }
 ];
