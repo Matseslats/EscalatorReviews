@@ -442,5 +442,17 @@ var data = [
   country : "China",
   city : "Beijing",
   comment : "Super crowded"
+},
+{
+  time : 1758573118,
+  lat : 24.451203,
+  long : 54.642197,
+  score : 9,
+  speed : 1,
+  smoothness : 9,
+  type : "escalator",
+  country : "United Arab Emirates",
+  city : "Abu Dhabi",
+  comment : ""
 }
 ];
