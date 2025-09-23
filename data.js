@@ -454,5 +454,133 @@ var data = [
   country : "United Arab Emirates",
   city : "Abu Dhabi",
   comment : ""
+},
+{
+time : 1758519833,
+lat : 39.512193,
+long : 116.409216,
+score : 7,
+speed : 1,
+smoothness : 8,
+type : "escalator",
+country : "China",
+city : "Beijing",
+comment : ""
+},
+{
+
+time : 1758453015,
+
+lat : 39.999966,
+
+long : 116.389199,
+
+score : 7,
+
+speed : 0,
+
+smoothness : 7,
+
+type : "escalator",
+
+country : "China",
+
+city : "Beijing",
+
+comment : ""
+
+},
+{
+
+time : 1758433142,
+
+lat : 40.359734,
+
+long : 116.006662,
+
+score : 0,
+
+speed : 0,
+
+smoothness : 0,
+
+type : "escalator",
+
+country : "China",
+
+city : "The Great Wall",
+
+comment : "Not operational"
+
+},
+{
+
+time : 1758416160,
+
+lat : 39.923576,
+
+long : 116.429202,
+
+score : 4,
+
+speed : 1,
+
+smoothness : 4,
+
+type : "escalator",
+
+country : "China",
+
+city : "Beijing",
+
+comment : "Bumpy"
+
+},
+
+{
+
+time : 1758018495,
+
+lat : 43.555264,
+
+long : 122.20417,
+
+score : 9,
+
+speed : 0,
+
+smoothness : 8,
+
+type : "escalator",
+
+country : "China",
+
+city : "Tangliao",
+
+comment : ""
+
+},
+{
+
+time : 1756963089,
+
+lat : 31.2452,
+
+long : 121.436835,
+
+score : 8,
+
+speed : 1,
+
+smoothness : 9,
+
+type : "escalator",
+
+country : "China",
+
+city : "Shanghai ",
+
+comment : "Bumpy"
+
 }
 ];
