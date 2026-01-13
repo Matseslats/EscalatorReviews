@@ -582,5 +582,17 @@ city : "Shanghai ",
 
 comment : "Bumpy"
 
+},
+{
+time : 1768258921,
+lat : 48.210353,
+long : 16.373665,
+score : 4,
+speed : 1,
+smoothness : 9,
+type : "escalator",
+country : "Austria",
+city : "Vienna",
+comment : "Subway not very clean"
 }
 ];
