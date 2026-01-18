@@ -594,5 +594,17 @@ type : "escalator",
 country : "Austria",
 city : "Vienna",
 comment : "Subway not very clean"
+},
+{
+time : 1768736200,
+lat : 48.184681,
+long : 16.376488,
+score : 9,
+speed : 4,
+smoothness : 8,
+type : "escalator",
+country : "Austria",
+city : "Vienna",
+comment : ""
 }
 ];
