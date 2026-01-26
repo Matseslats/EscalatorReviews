@@ -606,5 +606,17 @@ type : "escalator",
 country : "Austria",
 city : "Vienna",
 comment : ""
+},
+{
+  time : 1769203724,
+  lat : 51.506122,
+  long : -0.018153,
+  score : 9,
+  speed : 0,
+  smoothness : 9,
+  type : "escalator",
+  country : "United Kingdom",
+  city : "London",
+  comment : "Very smooth"
 }
 ];
